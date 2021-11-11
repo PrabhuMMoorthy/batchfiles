@@ -17,7 +17,7 @@ alias cleandebug='goplatform && ant clean all & hybrisserver.sh debug'
 
 alias gosolr='cd /Users/prabhu.moorthy/Documents/hybris/henkeladhesivespim/bin/modules/search-and-navigation/solrserver/resources/solr/8.9/server/bin'
 alias startsolr='gosolr && ./solr start'
-alias stopsolr='gosolr && ./solr stop -all'
+alias stopsolr='gosolr && ./solr stop -p 8983'
 
 alias gtp='git pull'
 alias gts='git status'
