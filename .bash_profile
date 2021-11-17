@@ -30,7 +30,7 @@ alias enteruat='ssh -i id_dsa puppet@dehensvh37.henkelgroup.net'
 alias enteruat2='ssh -i id_dsa puppet@dehensvh38.henkelgroup.net'
 alias enterdev='ssh -i id_dsa puppet@dehensvm168.henkelgroup.net'
 alias enterci='ssh -i id_dsa puppet@dehensvm167.henkelgroup.net'
-alias enterrc='ssh -i id_dsa puppet@dehensvm169.henkelgroup.net'
-
+alias enterrc='ssh -i id_dsa pim@dehensvm169.henkelgroup.net'
+alias osock='ssh -i id_dsa -L 10143:dehensvm166.henkelgroup.net:143 -L 10025:dehensvm166.henkelgroup.net:25  puppet@dehensvh37.henkelgroup.net'
 
 echo 'Good to go!!'
